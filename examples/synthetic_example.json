@@ -1,0 +1,13 @@
+{
+  "title": "Synthetic test: missing authorization on a toy withdrawal",
+  "target_commit": "synthetic-demo-commit",
+  "scope_source": "Synthetic example; no live protocol",
+  "configuration_evidence": "Toy fixture: withdrawal is externally callable",
+  "external_actor_reachability": "Toy test calls withdraw from an unprivileged address",
+  "green_test": "Toy test: owner withdrawal succeeds",
+  "red_test": "Toy test: unprivileged withdrawal succeeds before the fix",
+  "branch_reached": "Toy trace enters withdrawal transfer branch",
+  "independent_oracle": "Toy test compares recipient balance before and after",
+  "production_equivalent": "",
+  "impact_evidence": "Toy test shows a balance decrease; no real funds or protocol are involved"
+}

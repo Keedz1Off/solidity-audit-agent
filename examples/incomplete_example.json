@@ -1,0 +1,7 @@
+{
+  "title": "Unverified live hypothesis",
+  "target_commit": "abc123",
+  "scope_source": "Published scope URL",
+  "green_test": "Normal local path passes",
+  "red_test": "Local unusual-token fixture fails"
+}
